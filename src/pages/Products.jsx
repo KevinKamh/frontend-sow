@@ -4,7 +4,7 @@ import { useEffect, useState, useContext } from "react";
 import api from "../api";
 import { AuthContext } from "../context/AuthContext";
 import { useTranslation } from "react-i18next";
-import "./products.css";
+import "./Products.css";
 
 const languages = [
   { code: "en", name: "English", flag: "🇬🇧" },
